@@ -1,0 +1,55 @@
+@media(min-width: 1024px){
+    .main__container{
+        flex-direction: row;
+    }
+    .main__container__signup{
+        max-width: 35%;
+        height: 55%;
+        justify-content: center;
+    }
+    .main__container__div{
+        max-width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .main__container__form{
+        width: 80%;
+    }
+    .modal__signup{
+        max-width: 40%;
+    }
+    .main__container__signup > h1{
+        text-align: left;
+        width: 85%;
+        font-size: var(--title-text-size1);
+    }
+    .main__container__form > input{
+        padding: var(--padding-2);
+        font-size: var(--text-p-size1);
+    }
+    .main__container__signup > p{
+        width: 85%;
+        text-align: left;
+        font-size: var(--text-p-size1);
+    }
+    .main__container__form > h2{
+        font-size: var(--title-text-size1);
+    }
+    .main__container__form > label{
+        font-size: var(--text-p-size1);
+    }
+    .main__container__form > button{
+        padding: var(--padding-2);
+        font-size: var(--text-p-size1);
+    }
+    .container__form__img > img{
+        width: 40px;
+    }
+    .modal__form__submit{
+        padding: var(--padding-2);
+        font-size: var(--text-p-size1);
+    }
+    .modal__form__button{
+        padding: var(--padding-1);
+    }
+}

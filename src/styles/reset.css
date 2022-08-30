@@ -1,0 +1,7 @@
+body, header, img, button, main, div, h1, p, a, form, h2, label, input{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+    text-decoration: none;
+}

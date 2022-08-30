@@ -4,38 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/buttons.css">
+    <link rel="stylesheet" href="./src/styles/images.css">
+    <link rel="stylesheet" href="./src/styles/form.css">
+    <link rel="stylesheet" href="./src/styles/containers.css">
+    <link rel="stylesheet" href="./src/styles/text.css">
+    <link rel="stylesheet" href="./src/styles/min-width-768.css">
+    <link rel="stylesheet" href="./src/styles/min-width-1024.css">
+    <script defer src="./src/scripts/main.js"></script>
     <title>HomePage - Canequeiros</title>
 </head>
 <body>
-    <header class="header__container">
+    <header class="header__container ">
         <img class="header__container__img" src="./src/img/logo.svg" alt="Logo canequeiros">
         <button class="header__container__button"><img src="./src/img/dark-mode.png" alt="botão dark mode"></button>
     </header>
-    <main class="main__container">
-        <div>
+    <main class="main__container ">
+        <div class="main__container__signup">
             <h1>Ainda não é cadastrado?</h1>
-            <p>Para fazer o seu cadastro clique <a href="">aqui</a></p>
+            <p>Para fazer o seu cadastro clique <a href="" class="container__signup__button">aqui</a></p>
         </div>
-        <div>
-            <form>
+        <div class="main__container__div">
+            <form class="main__container__form">
                 <h2>Faça o login aqui:</h2>
                 <label for="Username">Username</label>
                 <input type="text" name="Username" placeholder="Usuário">
                 <label for="Password">Password</label>
                 <input type="password" name="Password" placeholder="******">
                 <button type="submit">Entrar</button>
+                <div class="container__form__img">
+                    <img src="./src/img/facebook.png" alt="facebook button">
+                    <img src="./src/img/instagram.png" alt="instagram button">
+                    <img src="./src/img/google-plus.png" alt="google button">
+                    <img src="./src/img/linkedin.png" alt="linkedin button">
+                </div>
             </form>
         </div>   
     </main>
 
-    <div class="modal__cadastro">
-        <form>
+
+    <div class="modal__signup hidden__class">
+        <form class="modal__form__signup">
+            <button class="modal__form__button">Voltar</button>
             <h2>Cadastro:</h2>
-            <label for="Username_cadastro">Username</label>
-            <input type="text" name="Username_cadastro" placeholder="Insira o seu usuário">
-            <label for="Password_cadastro">Password:</label>
-            <input type="password" name="Password_cadastro" placeholder="******">
+            <label for="Username_signup">Username</label>
+            <input type="text" name="Username_signup" placeholder="Insira o seu usuário">
+            <label for="Password_signup">Password:</label>
+            <input type="password" name="Password_signup" placeholder="******">
+            <button type="submit" class="modal__form__submit">Cadastrar</button>
         </form>
     </div>
+
+
+
+
 </body>
 </html>
