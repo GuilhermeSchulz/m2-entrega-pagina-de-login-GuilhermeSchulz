@@ -5,6 +5,9 @@
     border-radius: 10px;
     border: 2px solid var(--color-secondary);
 }
+.header__container__button:hover{
+    background-color: var(--color-secondary);
+}
 .modal__form__button{
     width: max-content;
 }
@@ -22,4 +25,10 @@
     background-color: var(--btn-color);
     color: var(--btn-text);
 }
+.main__container__form > button:hover{
+    opacity: 0.9;
+}
 
+.modal__form__signup button:hover{
+    opacity: 0.9;
+}
