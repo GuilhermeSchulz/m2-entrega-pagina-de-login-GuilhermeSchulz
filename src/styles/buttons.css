@@ -1,9 +1,9 @@
 .header__container__button{
     width: 30%;
     height: 50%;
-    background-color: var(--color-primary);
+    background-color: var(--color-grey-6);
     border-radius: 10px;
-    border: 2px solid var(--color-grey-5);
+    border: 2px solid var(--color-secondary);
 }
 .modal__form__button{
     width: max-content;
