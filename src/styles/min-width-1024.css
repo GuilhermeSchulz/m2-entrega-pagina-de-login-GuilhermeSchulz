@@ -52,4 +52,11 @@
     .modal__form__button{
         padding: var(--padding-1);
     }
+    .header__container{
+        justify-content: space-around;
+    }
+    .main__container{
+        max-width: 80%;
+        margin: 0 auto;
+    }
 }
