@@ -1,0 +1,25 @@
+.header__container__button{
+    width: 30%;
+    height: 50%;
+    background-color: var(--color-primary);
+    border-radius: 10px;
+    border: 2px solid var(--color-grey-5);
+}
+.modal__form__button{
+    width: max-content;
+}
+.modal__form__signup button{
+    padding: var(--padding-1);
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+}
+.main__container__form > button{
+    padding: var(--padding-1);
+    border-radius: var(--border-radius);
+    border: none;
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+}
+

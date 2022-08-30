@@ -1,0 +1,16 @@
+.header__container__img{
+    width: 50%;
+}
+
+.header__container__button > img{
+    height: 100%;
+    object-fit: contain;
+}
+.container__form__img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container__form__img > img{
+    width: var(--img-width-social);
+}
+

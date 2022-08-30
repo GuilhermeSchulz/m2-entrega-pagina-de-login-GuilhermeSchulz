@@ -1,0 +1,28 @@
+.main__container__signup > h1{
+    font-size: var(--title-text-size2);
+    font-weight: var(--font-weight-bold);
+    text-align: center;
+    color:var(--color-grey-1)
+}
+.main__container__signup > p{
+    font-size: var(--text-p-size1);
+    text-align: center;
+    color:var(--color-grey-1)
+}
+.main__container__signup > p > a{
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-bold);
+    text-transform: uppercase;
+}
+.main__container__form > h2{
+    font-size: var(--title-text-size2);
+    font-weight: var(--font-weight-bold);
+    color:var(--color-grey-1);
+    text-align: center;
+}
+.modal__form__signup> h2{
+    font-size: var(--title-text-size2);
+    font-weight: var(--font-weight-bold);
+    color:var(--color-grey-1);
+    text-align: center;
+}

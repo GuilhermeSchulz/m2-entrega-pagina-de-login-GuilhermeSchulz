@@ -1,0 +1,22 @@
+@media(min-width: 768px){
+    .header__container__button{
+        max-width: 100px;
+    }
+    .main__container__signup{
+        max-width: 70%;
+    }
+    .main__container__div{
+        max-width: 70%;
+        height: 55%;
+    }
+    .main__container__form{
+        justify-content: space-evenly;
+    }
+    .modal__signup{
+        max-width: 50%;
+    }
+    .header__container__img{
+        max-width: 200px;
+    }
+    
+}
