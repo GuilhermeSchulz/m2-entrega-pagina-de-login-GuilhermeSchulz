@@ -4,6 +4,7 @@
     background-color: var(--color-grey-6);
     border-radius: 10px;
     border: 2px solid var(--color-secondary);
+    min-height: 45px;
 }
 .header__container__button:hover{
     background-color: var(--color-secondary);
