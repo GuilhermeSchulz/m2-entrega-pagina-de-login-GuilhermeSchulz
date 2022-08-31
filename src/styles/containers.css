@@ -54,7 +54,7 @@
     left: 0;
     right: 0;
     border: 2px solid var(--color-secondary);
-    min-height: 350px;
+    min-height: 355px;
 }
 .main__container__div{
     height: 45%;
@@ -64,6 +64,5 @@
     padding: var(--padding-2);
     border: 2px solid var(--color-secondary);
     min-height: 365px;
-    
 }
 
